@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-bg{ 
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-logo{
+    padding: 5px 0;
+    margin-left: 30px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    font-size: 3em;
+}
+.menu ul li{
+    padding: 20px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.menu ul li:hover{
+    text-shadow: 20px 2px 20px black;
+}
+.menu ul li:last-child{
+    margin-right: 50px;
+}
+@media (max-width:850px){
+    .menu ul{
+        flex-direction: column;
+        font-size: 1.5em;
+    }
+    .menu ul li{
+        padding: 5px;
+        font-family: 'Zen Tokyo Zoo', cursive;
+    }
+}
+
+body{
+    background-image: url(https://images5.alphacoders.com/929/929203.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
